@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Manila MUN | About</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght
+    @300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="index.html"><img src="webimages/mmunlogo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <ion-icon name="close-outline" onclick="hideMenu()"></ion-icon>
+                <ul>
+                    <li><a href="index.html">HOME</a></li>
+                    <li><a href="registration.html">REGISTRATION</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="contactus.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <ion-icon name="menu-outline" onclick="showMenu()"></ion-icon>
+        </nav>
+
+        <h1>About Us</h1>
+    </section>
+
+<section class="secretariat">
+    <h1>Secretariat</h1>
+    <h4><br>Our team assuring delegates are provided with only the highest quality.<br><br><br></h4>
+    <div class="secgeneral">
+        <div class="secgeneral-row">
+            <div class="secgeneral-col">
+                    <h3>Secretary General</h3>
+                    <p>Nathaniel Xavier Malong</p>
+            </div>
+        </div>
+    </div>
+    <div class="secgencos">
+        <div class="sec-row">
+            <div class="secgencos-col">
+                <h3>Under Secretary General</h3>
+                <p>Angela Merithel Aldea</p>
+            </div>
+            <div class="secgencos-col">
+                <h3>Chief of Staff</h3>
+                <p>Elayne Selma Ashara</p>
+            </div>
+            <div class="secgencos-col">
+                <h3>Junior Chief of Staff</h3>
+                <p>Carla Mae Toling</p>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="sec-row">
+        <div class="sec-col">
+            <h3>Events</h3>
+            <p>Event Planning<br>Event Logistics<br>Technology<br>Finance</p>
+            <h5>Muhammad Alvin Ibnu Raffy<br>Augusthine Marie Aldea<br>Anisa Fan<br>Francisco Borlongan<br>John Matthew Nolasco<br>Leo Tayag</p>
+        </div>
+        <div class="sec-col">
+            <h3>Marketing</h3>
+            <p>Social Media<br>Creative Design<br><br><br></p>
+            <h5>Cherry Sung<br>Jennifer Tesalonika Erick<br>Joey Soesilo<br>Spencer Cagalitan<br>Shalini Sharma<br>Augusthine Marie Aldea</h5>
+        </div>
+        <div class="sec-col">
+            <h3>Public Relations</h3>
+            <p>Delegations<br>Sponsors<br><br><br></p>
+            <h5>Anton Mari Macasaet<br>Rachel Panis<br>Nicky Nastiti Adharini</h5>
+        </div>
+        <div class="sec-col">
+            <h3>Academics</h3>
+            <p>Substance<br>Quality Control<br><br><br></p>
+            <h5>Jenny Ma<br>Janeth Gow<br>Anton Mari Macasaet<br>Rafael Edward Tuazon<br>Aleczandra Topacio<br>Jaewon Choi<br>Spencer Cagalitan</h5>
+        </div>
+        <div class="sec-col">
+            <h3>Affairs</h3>
+            <p>Chair Officers<br>Liaison Officers<br>Logistics<br>Communications</p>
+            <h5>Elise Molina<br>Alfonso Yuji Cortez<br>Jocelyn Kwok<br>Megan Loh Shu Tan<br>Iarocci Hernandez<br>Marc Delmo<br>Francisco Borlongan<br>Sangley Monasterial</h5>
+        </div>
+    </div>
+
+</section>
+
+<section class="footer">
+    <a href="contactus.html" class="cflink">Contact Us</a>
+    <h4>About</h4>
+    <p>A Model UN club created by Venture MUN Club (VMUNC) based in the Philippines.</p>
+    <div class="icons">
+        <a class="social-icon" href="https://instagram.com/manilamun" target="_blank">
+        <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+    </div>
+    <p>@Manilamun 2022</p>
+</section>
+
+
+
+
+<!--Javascript for toggle menu-->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
