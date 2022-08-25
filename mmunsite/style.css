@@ -238,6 +238,8 @@ p{
     }
     .mvv-row{
         flex-direction: column;
+        margin-left: 50px;
+        margin-right: 50px;
     }
 }
 
