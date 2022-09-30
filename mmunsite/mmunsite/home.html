@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta name="viewport" content="with=device-width, initial-scale=1.0">
+    <title>Manila MUN | Home</title>
+    <link rel="apple-touch-icon" sizes="180x180" href="favicon.ico/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="favicon.ico/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="favicon.ico/favicon-16x16.png">
+    <link rel="manifest" href="favicon.ico/site.webmanifest">
+    <link rel="mask-icon" href="favicon.ico/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="theme-color" content="#ffffff">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+SC:wght
+    @300;400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+</head>
+<body>
+    <section class="header">
+        <nav>
+            <a href="home.html"><img src="webimages/mmunlogo.png"></a>
+            <div class="nav-links" id="navLinks">
+                <ion-icon name="close-outline" onclick="hideMenu()"></ion-icon>
+                <ul>
+                    <li><a href="home.html">HOME</a></li>
+                    <li><a href="registration.html">REGISTRATION</a></li>
+                    <li><a href="about.html">ABOUT</a></li>
+                    <li><a href="contactus.html">CONTACT US</a></li>
+                </ul>
+            </div>
+            <ion-icon name="menu-outline" onclick="showMenu()"></ion-icon>
+        </nav>
+
+<div class="text-box">
+    <h1>Manila MUN</h1>
+    <p>A Model UN created by Venture MUN Club (VMUNC) based in the Philippines. <br>Committed to attracting people from around the world to seek challenge, debates, and growth with a hint of Philippine culture.
+    </p>
+    <a href="#conference" class="hero-btn">Venture Onward</a>
+</div>
+
+    </section>
+
+
+
+<section class="conference" id="conference">
+    <h1>Main Conference</h1>
+    <h4><br>"Revolutionising and Reforming Global Affairs"<br><br><br></h4>
+
+    <div class="row">
+        <div class="course-col">
+            <h3>The moment you have been waiting for has finally arrived. The Delegate Registration for MIMUN Main Conference has opened.</h3>
+            <p>We highlight our offer of a great delegate experience for all. We assure you of the academic challenge and integrity that comes alongside Model UN. Our offer directs at those who feel the need to be challenged in Model UN. Manila International Model United Nations calls for everyone from around the world to congregate here and have an amazing Model UN experience.<br><br></p>
+            <a href="registration.html" class="registertwo">Learn More</a>
+        </div>
+    </div>
+</section>
+
+<section class="mvv">
+    <div class="mvv-row">
+        <div class="mvv-col">
+            <h3>Vision</h3>
+            <p>"To embody and pursue<br>change and quality."</p>
+        </div>
+        <div class="mvv-col">
+            <h3>Mission</h3>
+            <p>"To be able to provide a high quality Model UN experience for every participant."</p>
+        </div>
+    </div>
+</section>
+
+<section class="information">
+    <h1>Committees</h1>
+    <h4><br><br></h4>
+    <div class="row">
+        <div class="information-col">
+ 
+            <a href="unhsp.html"><img src="webimages/unhspimg.png">
+            <div class="layer">
+                <h3>United Nations<br>Human Settlement Program</h3>
+            </div>
+            </a>
+        </div>
+        <div class="information-col">
+           
+            <a href="oas.html"><img src="webimages/oasimg.png">
+            <div class="layer">
+                <h3>Organization of <br>American States</h3>
+            </div>
+            </a>
+        </div>
+        <div class="information-col">
+    
+            <a href="hcc.html"><img src="webimages/jccimg.png">
+            <div class="layer">
+                <h3>Historical<br>Crisis Committee</h3>
+            </div>
+            </a>
+        </div>
+        <div class="information-col">
+            
+            <a href="wto.html"><img src="webimages/wtoimg.png">
+            <div class="layer">
+                <h3>World Trade Organization</h3>
+            </div>
+            </a>
+        </div>
+        <div class="information-col">
+
+            <a href="sochum.html"><img src="webimages/schcimg.png">
+            <div class="layer">
+                <h3>Social, Cultural, and<br>Humanitarian Committee</h3>
+            </div>
+            </a>
+        </div>
+    </div>
+</section>
+
+<section class="footer">
+    <a href="contactus.html" class="cflink">Contact Us</a>
+    <h4>About</h4>
+    <p>A Model UN created by Venture MUN Club (VMUNC) based in the Philippines.</p>
+    <div class="icons">
+        <a class="social-icon" href="https://instagram.com/manilamun" target="_blank">
+        <ion-icon name="logo-instagram"></ion-icon>
+        </a>
+    </div>
+    <p>@Manilamun 2022</p>
+</section>
+
+
+
+
+<!--Javascript for toggle menu-->
+<script>
+
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+</body>
+</html>
